@@ -1,0 +1,37 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Training data and generated artifacts
+/data/
+/dataset/*.json
+/dataset/*.jsonl
+/dataset/*.parquet
+/checkpoints/
+/out/
+/outputs/
+/runs/
+/wandb/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Local caches
+.cache/
+.pytest_cache/
+.ruff_cache/
